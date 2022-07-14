@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const FooterContainer = styled.footer`
   padding: 15px 10px;
-  background-color: #1b9c1b;
+  background-color: var(--olacommerce-bg);
 `;
 
 export const FooterCt = styled.div`
