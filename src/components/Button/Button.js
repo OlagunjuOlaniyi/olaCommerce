@@ -34,3 +34,64 @@ export const BlinkIcon = styled(FiChevronRight)`
     }
   }
 `;
+
+export const ButtonTwo = styled(Link)`
+  padding: 8px 15px;
+  border: 2px solid var(--olacommerce-bg);
+  font-size: 18px;
+  color: #00cc96;
+  text-decoration: none;
+  align-self: center;
+  font-weight: 500;
+  transition: 0.5sec;
+
+  &:hover {
+    background-color: var(--olacommerce-bg);
+    color: #fff;
+  }
+`;
+
+export const ButtonIncDec = styled.button`
+  border-radius: 50%;
+  background-color: var(--olacommerce-bg);
+  padding: 5px;
+  height: 35px;
+  width: 35px;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+`;
+
+export const ButtonClickBd = styled.button`
+  padding: 8px 15px;
+  border: 2px solid var(--olacommerce-bg);
+  background-color: inherit;
+  font-size: 18px;
+  color: #00cc96;
+  align-self: center;
+  font-weight: 500;
+
+  transition: 0.5sec;
+
+  &:hover {
+    background-color: var(--olacommerce-bg);
+    color: #fff;
+  }
+`;
+
+export const ButtonClick = styled.button`
+  padding: 8px 15px;
+  border: 2px solid var(--olacommerce-bg);
+  background-color: var(--olacommerce-bg);
+  font-size: 18px;
+  color: #fff;
+  align-self: center;
+  font-weight: 500;
+  transition: 0.5sec;
+
+  &:hover {
+    border: 2px solid var(--olacommerce-bg);
+    color: var(--olacommerce-bg);
+    background-color: #fff;
+  }
+`;
